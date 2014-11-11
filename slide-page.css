@@ -1,5 +1,6 @@
 :host {
   display: block;
+    font-family: "Roboto";
 }
 
 core-animated-pages{
@@ -15,8 +16,7 @@ core-animated-pages{
 }		
 ::content p,::content h1,::content h2,::content h3,::content h4,::content h5{
 	padding: 5px;
-	margin: 0;	
-	word-break: break-all;
+	margin: 0;
 }
 ::content h1{
 	padding: 10px;
@@ -83,16 +83,33 @@ core-animated-pages{
 .nav>div {
 	padding: 0 15px;
 }
-::content p{
-  -webkit-animation-name: fadeInUp;
-  -webkit-animation-duration: 1s;
+/*
+::content img{
+  -webkit-animation-name: fadeInRight;
+  -webkit-animation-duration: 1.3s;
   -webkit-animation-delay: 0ms;
   animation-name: fadeInUp;
-  animation-duration: 1s;
+  animation-duration: 1.3s;
+  animation-delay: 0ms;
+}
+::content ul,::content ol{
+  -webkit-animation-name: fadeInRight;
+  -webkit-animation-duration: 1.2s;
+  -webkit-animation-delay: 0ms;
+  animation-name: fadeInUp;
+  animation-duration: 1.2s;
+  animation-delay: 0ms;
+}
+::content p{
+  -webkit-animation-name: fadeInRight;
+  -webkit-animation-duration: 1.1s;
+  -webkit-animation-delay: 0ms;
+  animation-name: fadeInUp;
+  animation-duration: 1.1s;
   animation-delay: 0ms;
 }
 ::content h2,::content h1{
-	-webkit-animation-name: fadeInDown;
+	-webkit-animation-name: fadeInRight;
 	-webkit-animation-duration: 1s;
 	-webkit-animation-delay: 0ms;
-}
+}*/

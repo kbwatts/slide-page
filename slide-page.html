@@ -27,7 +27,7 @@ Element providing solution to build one page slide base on polymer.
 <polymer-element name="slide-page" on-keydown="{{keypressHandler}}">
   <template>
       <link rel="stylesheet" href="slide-page.css"/>
-  	  <div class="right" layout vertical center end-justified><span>Powered by Polymer</span><paper-shadow z="5"></paper-shadow></div>
+<!--  	  <div class="right" layout vertical center end-justified><span>Powered by Polymer</span><paper-shadow z="5"></paper-shadow></div>-->
 	  <core-animated-pages id="pages" transitions="slide-from-right" selected="{{pageIndex}}">
 	    <content></content>
 	  </core-animated-pages>
